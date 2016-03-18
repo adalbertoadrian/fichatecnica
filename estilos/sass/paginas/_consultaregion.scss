@@ -1,0 +1,82 @@
+.consulta-region {
+    h1 {
+      text-align: center;
+      text-shadow: 1px 1px $color-gris-suave;
+      font-size: 20px;
+      padding-bottom: 10px;
+      font-variant: small-caps;
+      font-weight: bold;
+      margin-bottom: 50px;
+    }
+  .servicios,
+  .tecnicos,
+  .subred {
+    float: left;
+    width: 100%;
+    h2 {
+      font-size: 14px;
+      text-align: center;
+      padding-bottom: 20px;
+      font-variant: small-caps;
+      color: $color-rojo-corpoelec;
+      text-decoration: underline;
+    }
+    .tabla {
+      display: table;
+      @include border-radius(5px);
+      margin: 0 auto;
+      margin-bottom: 50px;
+      border: 2px solid $color-azul;
+      @include box-shadow(0px 5px 5px $color-gris-suave);
+      .tabla-header {
+        display: table-header-group;
+        @include fondo-azul();
+        color: $color-blanco;
+        font-size: 14px;
+        font-weight: bold;
+        font-variant: small-caps;
+        .tabla-row {
+          display: table-row;
+        }
+        .tabla-celda {
+          border-right: 1px solid $color-blanco;
+          &:last-child {
+            border-right: none;
+          }
+        }
+      }
+      .tabla-body {
+        display: table-row-group;
+        .tabla-row {
+          display: table-row;
+          .tabla-celda {
+            border-right: 1px solid $color-azul;
+            font-size: 12px;
+            background-color: $color-blanco;
+            span {
+              display: block;
+            }
+            &:last-child {
+              border-right: none;
+            }
+          }
+        }
+      }
+      .tabla-celda {
+        display: table-cell;
+        padding: 15px 3px;
+        text-transform: capitalize;
+        font-variant: small-caps;
+        text-align: center;
+        box-sizing: border-box;
+      }
+    }
+  }
+  .servicios,
+  .tecnicos {
+
+  }
+  .subred {
+
+  }
+}

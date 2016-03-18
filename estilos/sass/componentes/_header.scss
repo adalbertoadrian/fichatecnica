@@ -1,0 +1,34 @@
+.header {
+  @include fondo-rojo();
+  .fecha {
+    float: left;
+    color: $color-blanco;
+    padding-left: 10px;
+    padding-top: 5px;
+  }
+  .bienvenido,
+  .salir {
+    float: right;
+    font-variant: small-caps;
+    font-size: 14px;
+    color: $color-blanco;
+    padding-right: 10px;
+    padding-top: 5px;
+  }
+  .bienvenido {
+    font-weight: bold;
+    margin-right: 15px;
+  }
+  .salir {
+    a {
+      text-decoration: none;
+      color: $color-blanco;
+    }
+  }
+  h1 {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+    color: $color-blanco;
+  }
+}

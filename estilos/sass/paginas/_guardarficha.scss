@@ -1,0 +1,36 @@
+.msgbox{
+  .mensaje {
+    width: 95.5%;
+    float: left;
+    //font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    font-variant: small-caps;
+    margin: 10px 0px;
+    padding: 15px 10px 15px 50px;
+    background-repeat: no-repeat;
+    background-position: 10px center;
+    text-align: center;
+    @include border-radius(5px);
+    &.valido {
+      color: $color-verde;
+      border: 2px solid $color-verde;
+    }
+    &.error {
+      color: $color-rojo-corpoelec;
+      border: 2px solid $color-rojo-corpoelec;
+    }
+  }
+}
+.botonvolver {
+  background-color: $color-gris-suave;
+  border: 2px $color-gris-suave;
+  color: $color-blanco;
+  height: 35px;
+  cursor: pointer;
+  @include border-radius(5px);
+  &:hover {
+    background-color: $color-gris-suave - 15;
+    transition: all 0.5s;
+  }
+}

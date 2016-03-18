@@ -1,0 +1,91 @@
+html.index {
+  background: transparent url("../images/fondo.jpg") no-repeat fixed center center;
+  width: 100%;
+  height: 100%
+}
+body.index {
+  box-sizing: border-box;
+  height: 95%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  .encabezado1 {
+    font-size: 24px;
+    color: $color-blanco;
+    text-shadow: 0px 2px $color-gris-suave;
+    font-variant: uppercase;
+    font-weight: bold;
+    margin-top: -80px;
+  }
+  .encabezado2 {
+    font-size: 20px;
+    color: $color-blanco;
+    font-variant: uppercase;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 40px;
+  }
+  .box {
+    background-color: rgba(224, 0, 0, 0.7);
+    @include border-radius(15px);
+    @include box-shadow(0px 5px 5px $color-gris-suave);
+    width: 300px;
+    height: 210px;
+    .titulo {
+      text-align: center;
+      font-size: 16px;
+      color: $color-blanco;
+      font-weight: bold;
+      font-variant: uppercase;
+      padding-top: 15px;
+    }
+    .table {
+      display: table;
+      margin: auto auto;
+      .login,
+      .password,
+      .message,
+      .enter {
+        display: table-row;
+        label {
+          margin-top: 15px;
+          display: inline-block;
+          float: left;
+          color: $color-blanco;
+          font-size: 15px;
+        }
+        input {
+          display: block;
+          position: relative;
+        }
+      }
+      .message {
+        font-size: 12px;
+        text-align: right;
+        color: $color-blanco;
+        span {
+          display: block;
+          padding-top: 5px;
+          margin-bottom: -5px;
+        }
+      }
+      .enter {
+        text-align: center;
+        input {
+          margin-top: 20px;
+          margin-left: auto;
+          margin-right: auto;
+          background-color: $color-blanco;
+          border: 1px solid $color-blanco;
+          @include border-radius(5px);
+          &:hover {
+            background-color: $color-hover;
+            border: 1px solid $color-hover;
+            cursor: pointer;
+          }
+        }
+      }
+    }
+  }
+}

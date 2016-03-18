@@ -1,0 +1,89 @@
+.principal {
+  background: transparent url("../images/corpoelec.png") no-repeat;
+  background-size: 600px 200px;
+  background-position: center 300px;
+  .seccion-menu {
+    background: rgba(73,155,234,1);
+    background: -moz-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+    background: -webkit-gradient(left top, right top, color-stop(0%, rgba(73,155,234,1)), color-stop(100%, rgba(32,124,229,1)));
+    background: -webkit-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+    background: -o-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+    background: -ms-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+    background: linear-gradient(to right, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5', GradientType=1 );
+    height: 29px;
+    @include box-shadow(0px 5px 5px $color-gris-suave);
+    .menu {
+      list-style: none;
+      z-index: 9999;
+      .item {
+        float: left;
+        margin-right: 15px;
+        padding: 5px 5px;
+        cursor: pointer;
+        color: $color-blanco;
+        &:hover {
+          background-color: $color-blanco;
+          color: $color-azul;
+          transition: all 0.5s;
+        }
+        &.icon-home {
+          &:hover {
+            background-color: initial;
+            color: $color-blanco;
+          }
+        }
+        &.menu-regiones {
+          margin-right: 0px;
+          &:hover {
+            .lista-regiones {
+              opacity: 1;
+              display: inherit;
+              transition: opacity 0.5s;
+            }
+          }
+        }
+        .lista-regiones {
+          z-index: 9999;
+          list-style: none;
+          opacity: 0;
+          display: none;
+          width: 100%;
+          margin-top: 5px;
+          margin-left: -5px;
+          padding-left: 0px;
+          width: 155px;
+          .region {
+            width: 160px;
+            float: none;
+            background: rgba(73,155,234,1);
+            background: -moz-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+            background: -webkit-gradient(left top, right top, color-stop(0%, rgba(73,155,234,1)), color-stop(100%, rgba(32,124,229,1)));
+            background: -webkit-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+            background: -o-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+            background: -ms-linear-gradient(left, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+            background: linear-gradient(to right, rgba(73,155,234,1) 0%, rgba(32,124,229,1) 100%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5', GradientType=1 );
+            color: $color-blanco;
+            padding: 5px 0px;
+            text-align: center;
+            &:hover {
+              background: none;
+              background-color: $color-blanco;
+              color: $color-azul;
+            }
+          }
+        }
+      }
+    }
+  }
+  #contenedor {
+    z-index: -1000;
+    position: absolute;
+    margin-top: 30px;
+    width: 99%;
+    height: auto;
+    padding-bottom: 100px;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+}

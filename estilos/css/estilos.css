@@ -1,0 +1,638 @@
+/* line 1, ../sass/componentes/_header.scss */
+.header {
+  background: #a90329;
+  background: -moz-linear-gradient(top, #a90329 0%, #de2520 100%);
+  background: -webkit-gradient(left top, left bottom, color-stop(0%, #a90329), color-stop(100%, #de2520));
+  background: -webkit-linear-gradient(top, #a90329 0%, #de2520 100%);
+  background: -o-linear-gradient(top, #a90329 0%, #de2520 100%);
+  background: -ms-linear-gradient(top, #a90329 0%, #de2520 100%);
+  background: linear-gradient(to bottom, #a90329 0%, #de2520 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#a90329', endColorstr='#de2520', GradientType=0 );
+}
+/* line 3, ../sass/componentes/_header.scss */
+.header .fecha {
+  float: left;
+  color: white;
+  padding-left: 10px;
+  padding-top: 5px;
+}
+/* line 10, ../sass/componentes/_header.scss */
+.header .bienvenido,
+.header .salir {
+  float: right;
+  font-variant: small-caps;
+  font-size: 14px;
+  color: white;
+  padding-right: 10px;
+  padding-top: 5px;
+}
+/* line 18, ../sass/componentes/_header.scss */
+.header .bienvenido {
+  font-weight: bold;
+  margin-right: 15px;
+}
+/* line 23, ../sass/componentes/_header.scss */
+.header .salir a {
+  text-decoration: none;
+  color: white;
+}
+/* line 28, ../sass/componentes/_header.scss */
+.header h1 {
+  padding-top: 40px;
+  padding-bottom: 20px;
+  text-align: center;
+  color: white;
+}
+
+/* line 1, ../sass/componentes/_iconos.scss */
+.icon-log-out {
+  color: white;
+  margin-left: 5px;
+}
+
+/* line 6, ../sass/componentes/_iconos.scss */
+.icon-home {
+  margin-top: 1px;
+}
+
+/* line 10, ../sass/componentes/_iconos.scss */
+.icon-circle-with-plus {
+  float: right;
+  cursor: pointer;
+  color: white;
+}
+
+/* line 16, ../sass/componentes/_iconos.scss */
+.icon-circle-with-minus {
+  float: right;
+  cursor: pointer;
+  color: #4397e9;
+  margin-top: 3px;
+}
+
+/* line 2, ../sass/paginas/_consultaregion.scss */
+.consulta-region h1 {
+  text-align: center;
+  text-shadow: 1px 1px #a4a4a4;
+  font-size: 20px;
+  padding-bottom: 10px;
+  font-variant: small-caps;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+/* line 13, ../sass/paginas/_consultaregion.scss */
+.consulta-region .servicios,
+.consulta-region .tecnicos,
+.consulta-region .subred {
+  float: left;
+  width: 100%;
+}
+/* line 16, ../sass/paginas/_consultaregion.scss */
+.consulta-region .servicios h2,
+.consulta-region .tecnicos h2,
+.consulta-region .subred h2 {
+  font-size: 14px;
+  text-align: center;
+  padding-bottom: 20px;
+  font-variant: small-caps;
+  color: #de2520;
+  text-decoration: underline;
+}
+/* line 24, ../sass/paginas/_consultaregion.scss */
+.consulta-region .servicios .tabla,
+.consulta-region .tecnicos .tabla,
+.consulta-region .subred .tabla {
+  display: table;
+  border-radius: 5px;
+  -ms-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+  border: 2px solid #4397e9;
+  box-shadow: 0px 5px 5px #a4a4a4;
+  -ms-box-shadow: 0px 5px 5px #a4a4a4;
+  -moz-box-shadow: 0px 5px 5px #a4a4a4;
+  -webkit-box-shadow: 0px 5px 5px #a4a4a4;
+}
+/* line 31, ../sass/paginas/_consultaregion.scss */
+.consulta-region .servicios .tabla .tabla-header,
+.consulta-region .tecnicos .tabla .tabla-header,
+.consulta-region .subred .tabla .tabla-header {
+  display: table-header-group;
+  background: #499bea;
+  background: -moz-linear-gradient(left, #499bea 0%, #207ce5 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #499bea), color-stop(100%, #207ce5));
+  background: -webkit-linear-gradient(left, #499bea 0%, #207ce5 100%);
+  background: -o-linear-gradient(left, #499bea 0%, #207ce5 100%);
+  background: -ms-linear-gradient(left, #499bea 0%, #207ce5 100%);
+  background: linear-gradient(to right, #499bea 0%, #207ce5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#499bea', endColorstr='#207ce5', GradientType=1 );
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+/* line 38, ../sass/paginas/_consultaregion.scss */
+.consulta-region .servicios .tabla .tabla-header .tabla-row,
+.consulta-region .tecnicos .tabla .tabla-header .tabla-row,
+.consulta-region .subred .tabla .tabla-header .tabla-row {
+  display: table-row;
+}
+/* line 41, ../sass/paginas/_consultaregion.scss */
+.consulta-region .servicios .tabla .tabla-header .tabla-celda,
+.consulta-region .tecnicos .tabla .tabla-header .tabla-celda,
+.consulta-region .subred .tabla .tabla-header .tabla-celda {
+  border-right: 1px solid white;
+}
+/* line 43, ../sass/paginas/_consultaregion.scss */
+.consulta-region .servicios .tabla .tabla-header .tabla-celda:last-child,
+.consulta-region .tecnicos .tabla .tabla-header .tabla-celda:last-child,
+.consulta-region .subred .tabla .tabla-header .tabla-celda:last-child {
+  border-right: none;
+}
+/* line 48, ../sass/paginas/_consultaregion.scss */
+.consulta-region .servicios .tabla .tabla-body,
+.consulta-region .tecnicos .tabla .tabla-body,
+.consulta-region .subred .tabla .tabla-body {
+  display: table-row-group;
+}
+/* line 50, ../sass/paginas/_consultaregion.scss */
+.consulta-region .servicios .tabla .tabla-body .tabla-row,
+.consulta-region .tecnicos .tabla .tabla-body .tabla-row,
+.consulta-region .subred .tabla .tabla-body .tabla-row {
+  display: table-row;
+}
+/* line 52, ../sass/paginas/_consultaregion.scss */
+.consulta-region .servicios .tabla .tabla-body .tabla-row .tabla-celda,
+.consulta-region .tecnicos .tabla .tabla-body .tabla-row .tabla-celda,
+.consulta-region .subred .tabla .tabla-body .tabla-row .tabla-celda {
+  border-right: 1px solid #4397e9;
+  font-size: 12px;
+  background-color: white;
+}
+/* line 56, ../sass/paginas/_consultaregion.scss */
+.consulta-region .servicios .tabla .tabla-body .tabla-row .tabla-celda span,
+.consulta-region .tecnicos .tabla .tabla-body .tabla-row .tabla-celda span,
+.consulta-region .subred .tabla .tabla-body .tabla-row .tabla-celda span {
+  display: block;
+}
+/* line 59, ../sass/paginas/_consultaregion.scss */
+.consulta-region .servicios .tabla .tabla-body .tabla-row .tabla-celda:last-child,
+.consulta-region .tecnicos .tabla .tabla-body .tabla-row .tabla-celda:last-child,
+.consulta-region .subred .tabla .tabla-body .tabla-row .tabla-celda:last-child {
+  border-right: none;
+}
+/* line 65, ../sass/paginas/_consultaregion.scss */
+.consulta-region .servicios .tabla .tabla-celda,
+.consulta-region .tecnicos .tabla .tabla-celda,
+.consulta-region .subred .tabla .tabla-celda {
+  display: table-cell;
+  padding: 15px 3px;
+  text-transform: capitalize;
+  font-variant: small-caps;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+/* line 2, ../sass/paginas/_guardarficha.scss */
+.msgbox .mensaje {
+  width: 95.5%;
+  float: left;
+  font-size: 14px;
+  font-weight: bold;
+  font-variant: small-caps;
+  margin: 10px 0px;
+  padding: 15px 10px 15px 50px;
+  background-repeat: no-repeat;
+  background-position: 10px center;
+  text-align: center;
+  border-radius: 5px;
+  -ms-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+/* line 15, ../sass/paginas/_guardarficha.scss */
+.msgbox .mensaje.valido {
+  color: #088a08;
+  border: 2px solid #088a08;
+}
+/* line 19, ../sass/paginas/_guardarficha.scss */
+.msgbox .mensaje.error {
+  color: #de2520;
+  border: 2px solid #de2520;
+}
+
+/* line 25, ../sass/paginas/_guardarficha.scss */
+.botonvolver {
+  background-color: #a4a4a4;
+  border: 2px #a4a4a4;
+  color: white;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 5px;
+  -ms-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+/* line 32, ../sass/paginas/_guardarficha.scss */
+.botonvolver:hover {
+  background-color: #959595;
+  transition: all 0.5s;
+}
+
+/* line 1, ../sass/paginas/_index.scss */
+html.index {
+  background: transparent url("../images/fondo.jpg") no-repeat fixed center center;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 6, ../sass/paginas/_index.scss */
+body.index {
+  box-sizing: border-box;
+  height: 95%;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+/* line 13, ../sass/paginas/_index.scss */
+body.index .encabezado1 {
+  font-size: 24px;
+  color: white;
+  text-shadow: 0px 2px #a4a4a4;
+  font-variant: uppercase;
+  font-weight: bold;
+  margin-top: -80px;
+}
+/* line 21, ../sass/paginas/_index.scss */
+body.index .encabezado2 {
+  font-size: 20px;
+  color: white;
+  font-variant: uppercase;
+  font-weight: bold;
+  margin-top: 20px;
+  margin-bottom: 40px;
+}
+/* line 29, ../sass/paginas/_index.scss */
+body.index .box {
+  background-color: rgba(224, 0, 0, 0.7);
+  border-radius: 15px;
+  -ms-border-radius: 15px;
+  -moz-border-radius: 15px;
+  -webkit-border-radius: 15px;
+  box-shadow: 0px 5px 5px #a4a4a4;
+  -ms-box-shadow: 0px 5px 5px #a4a4a4;
+  -moz-box-shadow: 0px 5px 5px #a4a4a4;
+  -webkit-box-shadow: 0px 5px 5px #a4a4a4;
+  width: 300px;
+  height: 210px;
+}
+/* line 35, ../sass/paginas/_index.scss */
+body.index .box .titulo {
+  text-align: center;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+  font-variant: uppercase;
+  padding-top: 15px;
+}
+/* line 43, ../sass/paginas/_index.scss */
+body.index .box .table {
+  display: table;
+  margin: auto auto;
+}
+/* line 49, ../sass/paginas/_index.scss */
+body.index .box .table .login,
+body.index .box .table .password,
+body.index .box .table .message,
+body.index .box .table .enter {
+  display: table-row;
+}
+/* line 51, ../sass/paginas/_index.scss */
+body.index .box .table .login label,
+body.index .box .table .password label,
+body.index .box .table .message label,
+body.index .box .table .enter label {
+  margin-top: 15px;
+  display: inline-block;
+  float: left;
+  color: white;
+  font-size: 15px;
+}
+/* line 58, ../sass/paginas/_index.scss */
+body.index .box .table .login input,
+body.index .box .table .password input,
+body.index .box .table .message input,
+body.index .box .table .enter input {
+  display: block;
+  position: relative;
+}
+/* line 63, ../sass/paginas/_index.scss */
+body.index .box .table .message {
+  font-size: 12px;
+  text-align: right;
+  color: white;
+}
+/* line 67, ../sass/paginas/_index.scss */
+body.index .box .table .message span {
+  display: block;
+  padding-top: 5px;
+  margin-bottom: -5px;
+}
+/* line 73, ../sass/paginas/_index.scss */
+body.index .box .table .enter {
+  text-align: center;
+}
+/* line 75, ../sass/paginas/_index.scss */
+body.index .box .table .enter input {
+  margin-top: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+  -ms-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+/* line 82, ../sass/paginas/_index.scss */
+body.index .box .table .enter input:hover {
+  background-color: #e6e6e6;
+  border: 1px solid #e6e6e6;
+  cursor: pointer;
+}
+
+/* line 2, ../sass/paginas/_ingresarficha.scss */
+.ingresarficha h1 {
+  text-align: center;
+  font-size: 20px;
+  padding-bottom: 10px;
+  font-variant: small-caps;
+  text-decoration: underline;
+  margin-bottom: 50px;
+}
+/* line 10, ../sass/paginas/_ingresarficha.scss */
+.ingresarficha h2 {
+  font-size: 14px;
+  text-align: center;
+  padding-bottom: 20px;
+  font-variant: small-caps;
+  color: #de2520;
+  text-decoration: underline;
+}
+/* line 18, ../sass/paginas/_ingresarficha.scss */
+.ingresarficha .falta {
+  box-shadow: 0.5px 0.5px 0.5px 1px #de2520;
+  -ms-box-shadow: 0.5px 0.5px 0.5px 1px #de2520;
+  -moz-box-shadow: 0.5px 0.5px 0.5px 1px #de2520;
+  -webkit-box-shadow: 0.5px 0.5px 0.5px 1px #de2520;
+}
+/* line 24, ../sass/paginas/_ingresarficha.scss */
+.ingresarficha .region,
+.ingresarficha .servidores,
+.ingresarficha .tecnicos,
+.ingresarficha .redes {
+  float: left;
+  width: 33.3%;
+  height: 350px;
+}
+/* line 29, ../sass/paginas/_ingresarficha.scss */
+.ingresarficha .cuerpo {
+  padding-top: 100px;
+}
+/* line 32, ../sass/paginas/_ingresarficha.scss */
+.ingresarficha .tabla {
+  display: table;
+  margin: 0 auto;
+}
+/* line 35, ../sass/paginas/_ingresarficha.scss */
+.ingresarficha .tabla .form-iten {
+  display: table-row;
+}
+/* line 37, ../sass/paginas/_ingresarficha.scss */
+.ingresarficha .tabla .form-iten .subtabla {
+  display: table;
+  border: 2px solid #4397e9;
+  border-radius: 5px;
+  -ms-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  box-shadow: 0px 2px 5px #a4a4a4;
+  -ms-box-shadow: 0px 2px 5px #a4a4a4;
+  -moz-box-shadow: 0px 2px 5px #a4a4a4;
+  -webkit-box-shadow: 0px 2px 5px #a4a4a4;
+  margin-bottom: 10px;
+}
+/* line 43, ../sass/paginas/_ingresarficha.scss */
+.ingresarficha .tabla .form-iten .subtabla .title {
+  display: table-row;
+  background: #499bea;
+  background: -moz-linear-gradient(left, #499bea 0%, #207ce5 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #499bea), color-stop(100%, #207ce5));
+  background: -webkit-linear-gradient(left, #499bea 0%, #207ce5 100%);
+  background: -o-linear-gradient(left, #499bea 0%, #207ce5 100%);
+  background: -ms-linear-gradient(left, #499bea 0%, #207ce5 100%);
+  background: linear-gradient(to right, #499bea 0%, #207ce5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#499bea', endColorstr='#207ce5', GradientType=1 );
+}
+/* line 46, ../sass/paginas/_ingresarficha.scss */
+.ingresarficha .tabla .form-iten .subtabla .title .title-cell {
+  display: table-cell;
+}
+/* line 48, ../sass/paginas/_ingresarficha.scss */
+.ingresarficha .tabla .form-iten .subtabla .title .title-cell.principal {
+  padding-left: 10px;
+  text-align: left;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 14px;
+}
+/* line 55, ../sass/paginas/_ingresarficha.scss */
+.ingresarficha .tabla .form-iten .subtabla .title .title-cell.title-name {
+  text-align: center;
+  font-weight: bold;
+  font-variant: small-caps;
+  font-size: 12px;
+  border-top: solid 2px white;
+}
+/* line 62, ../sass/paginas/_ingresarficha.scss */
+.ingresarficha .tabla .form-iten .subtabla .title .title-cell span {
+  color: white;
+}
+/* line 67, ../sass/paginas/_ingresarficha.scss */
+.ingresarficha .tabla .form-iten .subtabla .body {
+  display: table-row-group;
+}
+/* line 69, ../sass/paginas/_ingresarficha.scss */
+.ingresarficha .tabla .form-iten .subtabla .body .body-row {
+  display: table-row;
+}
+/* line 71, ../sass/paginas/_ingresarficha.scss */
+.ingresarficha .tabla .form-iten .subtabla .body .body-row .body-cell {
+  display: table-cell;
+  padding-bottom: 10px;
+}
+/* line 80, ../sass/paginas/_ingresarficha.scss */
+.ingresarficha .region {
+  height: 0px;
+}
+/* line 82, ../sass/paginas/_ingresarficha.scss */
+.ingresarficha .region select {
+  width: 350px;
+}
+/* line 89, ../sass/paginas/_ingresarficha.scss */
+.ingresarficha .servidores textarea,
+.ingresarficha .tecnicos textarea,
+.ingresarficha .redes textarea {
+  resize: none;
+}
+/* line 95, ../sass/paginas/_ingresarficha.scss */
+.ingresarficha .tecnicos input,
+.ingresarficha .tecnicos textarea {
+  margin: 0 auto;
+}
+/* line 99, ../sass/paginas/_ingresarficha.scss */
+.ingresarficha .botones {
+  text-align: right;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 30px;
+}
+/* line 104, ../sass/paginas/_ingresarficha.scss */
+.ingresarficha .botones .guardar {
+  background-color: #4397e9;
+  border: 2px #4397e9;
+  color: white;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 5px;
+  -ms-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+}
+/* line 111, ../sass/paginas/_ingresarficha.scss */
+.ingresarficha .botones .guardar:hover {
+  background-color: #3488da;
+  transition: all 0.5s;
+}
+/* line 116, ../sass/paginas/_ingresarficha.scss */
+.ingresarficha .botones .resetear {
+  background-color: #de2520;
+  border: 2px #de2520;
+  color: white;
+  height: 35px;
+  cursor: pointer;
+  border-radius: 5px;
+  -ms-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  margin-right: 140px;
+}
+/* line 124, ../sass/paginas/_ingresarficha.scss */
+.ingresarficha .botones .resetear:hover {
+  background-color: #cf1611;
+  transition: all 0.5s;
+}
+
+/* line 1, ../sass/paginas/_principal.scss */
+.principal {
+  background: transparent url("../images/corpoelec.png") no-repeat;
+  background-size: 600px 200px;
+  background-position: center 300px;
+}
+/* line 5, ../sass/paginas/_principal.scss */
+.principal .seccion-menu {
+  background: #499bea;
+  background: -moz-linear-gradient(left, #499bea 0%, #207ce5 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #499bea), color-stop(100%, #207ce5));
+  background: -webkit-linear-gradient(left, #499bea 0%, #207ce5 100%);
+  background: -o-linear-gradient(left, #499bea 0%, #207ce5 100%);
+  background: -ms-linear-gradient(left, #499bea 0%, #207ce5 100%);
+  background: linear-gradient(to right, #499bea 0%, #207ce5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#499bea', endColorstr='#207ce5', GradientType=1 );
+  height: 29px;
+  box-shadow: 0px 5px 5px #a4a4a4;
+  -ms-box-shadow: 0px 5px 5px #a4a4a4;
+  -moz-box-shadow: 0px 5px 5px #a4a4a4;
+  -webkit-box-shadow: 0px 5px 5px #a4a4a4;
+}
+/* line 16, ../sass/paginas/_principal.scss */
+.principal .seccion-menu .menu {
+  list-style: none;
+  z-index: 9999;
+}
+/* line 19, ../sass/paginas/_principal.scss */
+.principal .seccion-menu .menu .item {
+  float: left;
+  margin-right: 15px;
+  padding: 5px 5px;
+  cursor: pointer;
+  color: white;
+}
+/* line 25, ../sass/paginas/_principal.scss */
+.principal .seccion-menu .menu .item:hover {
+  background-color: white;
+  color: #4397e9;
+  transition: all 0.5s;
+}
+/* line 31, ../sass/paginas/_principal.scss */
+.principal .seccion-menu .menu .item.icon-home:hover {
+  background-color: initial;
+  color: white;
+}
+/* line 36, ../sass/paginas/_principal.scss */
+.principal .seccion-menu .menu .item.menu-regiones {
+  margin-right: 0px;
+}
+/* line 39, ../sass/paginas/_principal.scss */
+.principal .seccion-menu .menu .item.menu-regiones:hover .lista-regiones {
+  opacity: 1;
+  display: inherit;
+  transition: opacity 0.5s;
+}
+/* line 46, ../sass/paginas/_principal.scss */
+.principal .seccion-menu .menu .item .lista-regiones {
+  z-index: 9999;
+  list-style: none;
+  opacity: 0;
+  display: none;
+  width: 100%;
+  margin-top: 5px;
+  margin-left: -5px;
+  padding-left: 0px;
+  width: 155px;
+}
+/* line 56, ../sass/paginas/_principal.scss */
+.principal .seccion-menu .menu .item .lista-regiones .region {
+  width: 160px;
+  float: none;
+  background: #499bea;
+  background: -moz-linear-gradient(left, #499bea 0%, #207ce5 100%);
+  background: -webkit-gradient(left top, right top, color-stop(0%, #499bea), color-stop(100%, #207ce5));
+  background: -webkit-linear-gradient(left, #499bea 0%, #207ce5 100%);
+  background: -o-linear-gradient(left, #499bea 0%, #207ce5 100%);
+  background: -ms-linear-gradient(left, #499bea 0%, #207ce5 100%);
+  background: linear-gradient(to right, #499bea 0%, #207ce5 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#499bea', endColorstr='#207ce5', GradientType=1 );
+  color: white;
+  padding: 5px 0px;
+  text-align: center;
+}
+/* line 70, ../sass/paginas/_principal.scss */
+.principal .seccion-menu .menu .item .lista-regiones .region:hover {
+  background: none;
+  background-color: white;
+  color: #4397e9;
+}
+/* line 80, ../sass/paginas/_principal.scss */
+.principal #contenedor {
+  z-index: -1000;
+  position: absolute;
+  margin-top: 30px;
+  width: 99%;
+  height: auto;
+  padding-bottom: 100px;
+  background-color: rgba(255, 255, 255, 0.9);
+}
